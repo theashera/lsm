@@ -1069,11 +1069,18 @@ header .button {
   height: 846px;
   position: relative;
 }
+/*.gallery .gallery-switch {*/
+  /*text-align: right;*/
+  /*margin: 0 17px 20px 0;*/
+  /*color: #676e71;*/
+/*}*/
+
 .gallery .gallery-switch {
-  text-align: right;
-  margin: 0 17px 20px 0;
-  color: #676e71;
+    text-align: center;
+    margin: 0 0 20px 0;
+    color: #676e71;
 }
+
 .gallery .gallery-switch a {
   font-size: 14px;
   letter-spacing: 1px;
@@ -1541,8 +1548,6 @@ header .button {
 .gallery .rsThumbsArrowIcn {
   width: 16px;
   height: 16px;
-  top: 50%;
-  left: 50%;
   margin-top: -8px;
   margin-left: -8px;
   position: absolute;
@@ -1551,11 +1556,18 @@ header .button {
 }
 
 .gallery .rsThumbsArrowLeft .rsThumbsArrowIcn {
-  background-position: -144px -32px;
+    background-position: -128px -34px;
+    margin-left: 2px;
+    margin-top: 30px;
+    left: 1%;
 }
 
 .gallery .rsThumbsArrowRight .rsThumbsArrowIcn {
-  background-position: -144px -48px;
+  background-position: -128px -48px;
+  margin-left: 2px;
+  margin-top: -20px;
+  right: 1%;
+
 }
 
 .gallery .rsThumbsArrowDisabled {display: none !important;}
