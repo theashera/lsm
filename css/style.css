@@ -1894,7 +1894,7 @@ header .button {
   line-height: 1;
 }
 .autor .autor-video {
-  *zoom: 1;
+  height: 437px;
 }
 .autor .autor-video:after {
   display: block;
